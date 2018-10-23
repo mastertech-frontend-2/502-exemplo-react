@@ -15,13 +15,3 @@ button{
     color: #282c34;
     font-weight: bold;
 }
-
-section .main{
-    display: flex;
-    justify-content: space-between;
-}
-
-section .main .buttons{
-    display: flex;
-    flex-direction: column;
-}

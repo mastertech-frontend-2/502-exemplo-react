@@ -8,3 +8,8 @@
     background-color: #282c34;
     border-radius: 10px;
 }
+
+.Caixa .main{
+    display: flex;
+    justify-content: space-between;
+}
