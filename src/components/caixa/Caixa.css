@@ -1,0 +1,10 @@
+.Caixa{
+    max-width: 100%;
+    width: 420px;
+    margin: auto;
+    box-sizing: border-box;
+    color: #61dafb;
+    padding: 50px;
+    background-color: #282c34;
+    border-radius: 10px;
+}

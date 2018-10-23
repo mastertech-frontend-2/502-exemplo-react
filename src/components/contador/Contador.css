@@ -1,0 +1,8 @@
+.Caixa .main .timer{
+    display: flex;
+    font-size: 6.3rem;
+}
+
+.Caixa .main .timer span:first-child::after{ 
+    content: ':';
+}
