@@ -5,7 +5,7 @@ class Controles extends Component{
     render = () => {
         return (
             <div className="Controles">
-                <Botao conteudo="Iniciar"/>
+                <Botao conteudo="Iniciar" aoClicar={this.props.pausar}/>
                 <Botao conteudo="Zerar"/>
             </div>
         );
