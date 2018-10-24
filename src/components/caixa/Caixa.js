@@ -8,12 +8,12 @@ class Caixa extends Component{
     render = () => {
         return (
             <section className="Caixa">
-                <div class="main">
+                <div className="main">
                     <Contador />
                     <MaisMenos />
                 </div>
 
-                <div class="buttons">
+                <div className="buttons">
                     <button>Iniciar</button>
                     <button>Zerar</button>
                 </div>

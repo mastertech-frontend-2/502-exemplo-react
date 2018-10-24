@@ -1,8 +1,8 @@
-.Caixa .main .timer{
+.Contador{
     display: flex;
     font-size: 6.3rem;
 }
 
-.Caixa .main .timer span:first-child::after{ 
+.Contador span:first-child::after{ 
     content: ':';
 }

@@ -1,4 +1,4 @@
-.Caixa .main .buttons{
+.MaisMenos{
     display: flex;
     flex-direction: column;
 }
