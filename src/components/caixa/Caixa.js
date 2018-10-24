@@ -3,6 +3,7 @@ import './Caixa.css';
 import '../contador/Contador';
 import Contador from '../contador/Contador';
 import MaisMenos from '../mais-menos/MaisMenos';
+import Controles from '../controles/Controles';
 
 class Caixa extends Component{
     render = () => {
@@ -12,11 +13,7 @@ class Caixa extends Component{
                     <Contador />
                     <MaisMenos />
                 </div>
-
-                <div className="buttons">
-                    <button>Iniciar</button>
-                    <button>Zerar</button>
-                </div>
+                <Controles />
             </section>
         );
     }
