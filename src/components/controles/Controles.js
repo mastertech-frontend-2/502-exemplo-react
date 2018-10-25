@@ -5,8 +5,8 @@ class Controles extends Component{
     render = () => {
         return (
             <div className="Controles">
-                <Botao conteudo="Iniciar" aoClicar={this.props.pausar}/>
-                <Botao conteudo="Zerar"/>
+                <Botao conteudo={this.props.botaoPausar} aoClicar={this.props.cliquePausar}/>
+                <Botao conteudo="Zerar" aoClicar={this.props.cliqueZerar}/>
             </div>
         );
     }

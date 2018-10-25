@@ -5,8 +5,8 @@ class MaisMenos extends Component{
     render = () => {
         return (
             <div className="MaisMenos">
-                <Botao conteudo="+" />
-                <Botao conteudo="-&nbsp;" />
+                <Botao conteudo="+" aoClicar={this.props.cliqueMais} />
+                <Botao conteudo="-&nbsp;" aoClicar={this.props.cliqueMenos} />
             </div>
         );
     }
